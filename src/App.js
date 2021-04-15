@@ -11,7 +11,11 @@ export default function App() {
         SetVal("");
         break;
       case "=":
-        SetVal(eval(expression));
+        try {
+          SetVal(eval(expression));
+        } catch {
+          SetVal("Undefined");
+        }
         break;
       case "inv":
         SetVal(-expression);
