@@ -1,7 +1,7 @@
 # Minimalistic-Calculator
 
-Created with CodeSandbox
+![Minimalistic-Calculator](./src/images/Minimalistic-Calculator.PNG)
 
-Baby steps towards learning react.
+Created with CodeSandbox
 
 Link to the demo (https://dkv3v.csb.app/)
